@@ -1,6 +1,9 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+align-items: center;
 }
 
 .logo {
@@ -23,3 +26,6 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+
+  div>ul{display:flex;flex-direction: row;}
